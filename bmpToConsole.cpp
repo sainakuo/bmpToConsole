@@ -95,7 +95,7 @@ int main()
 
 		for (int i = 0; i < my; i++)
 		{
-			delete v[i];
+			delete[] v[i];
 		}
 
 		delete[] v;
